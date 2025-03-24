@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activistloginpage"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="318dp"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            app:srcCompat="@drawable/topbox" />
+
+        <TextView
+            android:id="@+id/logintxt"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="LOGIN"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_marginTop="13sp"
+            android:padding="8dp"/>
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="324dp"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="90sp"
+                android:background="@drawable/txtbox"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:hint="G-MAIL"
+                android:inputType="text"
+                android:padding="8sp"
+                android:paddingLeft="15sp"
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <EditText
+                android:id="@+id/userpassword"
+                android:layout_width="270dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15sp"
+                android:background="@drawable/txtbox"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:hint="password"
+                android:inputType="text"
+                android:padding="8sp"
+                android:paddingLeft="15sp"
+                android:textColor="@color/material_dynamic_neutral30" />
+
+            <Button
+                android:id="@+id/loginbuttton"
+                android:layout_width="100dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20sp"
+                android:gravity="center"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

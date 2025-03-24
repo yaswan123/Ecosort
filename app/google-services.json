@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197447556074",
+    "project_id": "ecosort-180ec",
+    "storage_bucket": "ecosort-180ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197447556074:android:736d419f15d40eee4f7093",
+        "android_client_info": {
+          "package_name": "com.example.ecosort"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrQQ-jKbB64Mj02LlNBYkGWkV_ie7lKwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
